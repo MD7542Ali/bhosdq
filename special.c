@@ -117,15 +117,15 @@ void print_stylish_text() {
 
     printf("\n");
     printf("\033[1;35m╔════════════════════════════════════════╗\033[0m\n");
-    printf("\033[1;35m║ \033[1;36m★ \033[1;32mNEON B H A I \033[1;36m★ \033[1;35m║\033[0m\n");
+    printf("\033[1;35m║ \033[1;36m★ \033[1;32mPYSCHO B H A I \033[1;36m★ \033[1;35m║\033[0m\n");
     printf("\033[1;35m╠════════════════════════════════════════╣\033[0m\n");
-    printf("\033[1;35m║ \033[1;33m✦ DEVELOPED BY: \033[1;32m@NEON_OWNER_1 \033[1;35m║\033[0m\n");
+    printf("\033[1;35m║ \033[1;33m✦ DEVELOPED BY: \033[1;32m@PYSCHOxKINGYT \033[1;35m║\033[0m\n");
     printf("\033[1;35m║ \033[1;33m✦ EXPIRY TIME: \033[1;32m%d days, %02d:%02d:%02d \033[1;35m║\033[0m\n", remaining_days, remaining_hours, remaining_minutes, remaining_seconds_int);
-    printf("\033[1;35m║ \033[1;33m✦ AAGYA TERA BAAP BY: \033[1;32mNEON BHAI \033[1;35m║\033[0m\n");
+    printf("\033[1;35m║ \033[1;33m✦ AAGYA TERA BAAP BY: \033[1;32mPYSCHO BHAI \033[1;35m║\033[0m\n");
     printf("\033[1;35m║ \033[1;33m✦ YE FULL FREE DDOS BANARY HAI \033[1;35m║\033[0m\n");
     printf("\033[1;35m║ \033[1;31m✦ ! [ SELL KRNE WALO BAHEN CHUDALO ] \033[1;35m║\033[0m\n");
     printf("\033[1;35m║ \033[1;33m✦ YE FILE EXPIRY KE BAAD NEW FILE PAID MILEGA \033[1;35m║\033[0m\n");
-    printf("\033[1;35m║ \033[1;33m✦ CONTACT: \033[1;32m@NEON_OWNER_1 \033[1;35m║\033[0m\n");
+    printf("\033[1;35m║ \033[1;33m✦ CONTACT: \033[1;32m@PYSCHOxKINGYT \033[1;35m║\033[0m\n");
     printf("\033[1;35m╠════════════════════════════════════════╣\033[0m\n");
     printf("\033[1;35m║ \033[1;36m★ \033[1;32mP O W E R F U L \033[1;36m★ \033[1;35m║\033[0m\n");
     printf("\033[1;35m╚════════════════════════════════════════╝\033[0m\n\n");
@@ -143,7 +143,7 @@ int main(int argc, char *argv[]) {
     if (local->tm_year + 1900 > EXPIRATION_YEAR ||
         (local->tm_year + 1900 == EXPIRATION_YEAR && local->tm_mon + 1 > EXPIRATION_MONTH) ||
         (local->tm_year + 1900 == EXPIRATION_YEAR && local->tm_mon + 1 == EXPIRATION_MONTH && local->tm_mday > EXPIRATION_DAY)) {
-        printf("\033[1;31mExpired. khatam ho gya h developar se connect kr @NEON_OWNER_1.\033[0m\n");
+        printf("\033[1;31mExpired. khatam ho gya h developar se connect kr @PYSCHOxKINGYT.\033[0m\n");
         return EXIT_FAILURE;
     }
 
